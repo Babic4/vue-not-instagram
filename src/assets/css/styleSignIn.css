@@ -1,0 +1,36 @@
+.logo{
+    height: 10vh;
+    margin-bottom: 5vh;
+}
+
+.s1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex: 1 0 auto;
+}
+
+form{
+    width: 40vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    color: #01b5e6;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline;  
+}
+
+  .reg{
+    font-size: 0.9em;
+  }

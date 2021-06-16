@@ -1,0 +1,72 @@
+.boxImg {
+  /* border:2px solid black; */
+  background-color: #e7e7e7;
+  width: 21.76vw;
+  height: 21.76vw;
+  margin-right: 0.3vw;
+  margin-bottom: 0.3vw;
+}
+
+.boxImg:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.formPhoto {
+  z-index: 3;
+  visibility: hidden;
+  left: 50%;
+  top: 50%;
+  margin-left: -280px;
+  margin-top: -290px;
+  display: flex;
+  position: fixed;
+  overflow: auto;
+  height: 580px;
+  width: 560px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.formPhoto > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.divFUser {
+  margin-bottom: 1.5vh;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.imgFUser {
+  cursor: pointer;
+  height: 5vh;
+  border-radius: 50%;
+  margin: 5px 5px 5px 0px;
+}
+
+.nickFUser {
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.9vh;
+  margin-right: 15px;
+  overflow: hidden;
+}
+
+.imgSubscriber {
+  margin-bottom: 4vh;
+  width: 100%;
+}
+
+.divIS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}

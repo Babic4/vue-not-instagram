@@ -1,0 +1,184 @@
+.conversations {
+  height: 100%;
+  margin-top: 5vh;
+  margin-bottom: 7vh;
+  /* background-color: #e7e7e7; */
+  width: 66vw;
+  display: flex;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.receivers {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow-y: scroll;
+  width: 35%;
+}
+
+.divConversation {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 65%;
+  overflow: hidden;
+}
+
+.receiver {
+  display: flex;
+  width: 100%;
+  min-height: 10vh;
+  /* border: 1px solid #f74b3b; */
+  align-items: center;
+  cursor: pointer;
+}
+
+.imgReceiver {
+  margin-left: 1.5vw;
+  margin-right: 1vw;
+  height: 8vh;
+  border-radius: 50%;
+}
+
+.dateLastMessage {
+  padding-top: 1vh;
+  padding-right: 1vw;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Open Sans", sans-serif;
+  color: #f74b3b;
+  height: 10vh;
+  width: 4vw;
+  font-size: 0.7em;
+}
+
+.name-lMessage {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nameReceiver {
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.headerNameReceiver {
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.lastMessage {
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+.headerConversation {
+  border-bottom: 1px solid #f74b3b;
+  display: flex;
+  align-items: center;
+  height: 7vh;
+}
+
+.headerImgReceiver {
+  margin-left: 1.5vw;
+  margin-right: 1vw;
+  height: 4vh;
+  border-radius: 50%;
+}
+
+.conversation {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.inputConversation {
+  /* border: 1px solid #f74b3b; */
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputMessage {
+  font-weight: 400;
+  padding: 0 1vw 0 1vw;
+  border: 0.8px solid #7c878b;
+  height: 6vh;
+  width: 80%;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 0.8em;
+  color: #7c878b;
+  border-radius: 12px;
+}
+
+.message {
+  /* border: 0.1px solid #01b5e6; */
+  display: flex;
+  align-items: flex-start;
+}
+
+.messageN {
+  /* border: 0.1px solid #01b5e6; */
+  display: flex;
+  align-items: flex-start;
+}
+
+.imgReceiverInM {
+  margin-top: 1vh;
+  margin-left: 1.5vw;
+  margin-right: 1vw;
+  height: 3vw;
+  border-radius: 50%;
+}
+
+.dateMessage {
+  padding-top: 1vh;
+  padding-right: 1vw;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Open Sans", sans-serif;
+  color: #01b5e6;
+  height: 5vh;
+  width: 4vw;
+  font-size: 0.7em;
+}
+
+.middleGroupM {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  justify-content: flex-start;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nameReceiverInM {
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.tMessage {
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+.marginLM {
+  margin-left: 5.5vw;
+}
+
+.colorR {
+  margin-left: 0.6vw;
+  font-size: 0.65em;
+  color: #f74b3b;
+}
+
+.nameReceiver {
+  display: flex;
+  align-items: center;
+}
